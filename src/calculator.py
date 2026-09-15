@@ -2,6 +2,7 @@
 Calculator Module - Basic arithmetic operations
 Students will extend this with more functions
 """
+import math
 
 def add(a, b):
     """Add two numbers together"""
@@ -37,6 +38,10 @@ def divide(a, b):
 def mod(a,b):
     """Calculate a mod b"""
     return a%b
+
+def sine(a):
+    """Calculate sin-scientific calc branch"""
+    return math.sin(a)
 
 if __name__ == "__main__":
     print("🧮 Calculator Module")
