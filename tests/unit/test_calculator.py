@@ -40,3 +40,6 @@ class TestModOperations:
         """Testing mod operation of positive numbers"""
         assert mod(10,2)==0
         assert mod(15,2)==1
+        """Testing mod operation of negative numbers"""
+        assert mod(-10, 2) == 0
+        assert mod(-15, 2) == 1
